@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+main() {
+    int x,y,z,w;
+    cout<<"What is your attendance ?"<<endl;
+    cout<<"How much Lecture you attended : ";
+    cin>>x;
+    cout<<endl<<"How much Lectures were held : ";
+    cin>>y;
+    cout<<endl<<"How much is your expected attendance be? ";
+    cin>>z;
+    w=((100*x)-(z*y))/(z-100);
+    cout<<endl<<"You have to attend "<<w<<" lectures to make your attendance as "<<z<<"%";
+}
